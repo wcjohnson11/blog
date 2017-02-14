@@ -18,7 +18,7 @@
 
 .bio > h2 {
   color: #73223F;
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin: 10px 0;
 }
 
@@ -43,7 +43,7 @@
   border-radius: 4px;
   color: #73223F;
   cursor: pointer;
-  font-size: 20px !important;
+  font-size: 1.5em !important;
   padding: 4px;
 }
 
