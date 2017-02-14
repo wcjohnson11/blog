@@ -1,0 +1,58 @@
+.bio {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.bio > p > a {
+  color: white !important;
+}
+
+.bio > h2 {
+  color: #882637;
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+.bio > ul {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.bio > li {
+  flex: 1;
+  padding-right: 15px;
+}
+
+.bio > ul > li > a > i.fa {
+  border-radius: 4px;
+  color: #882637;
+  cursor: pointer;
+  font-size: 20px !important;
+  padding: 4px;
+}
+
+.bio > ul > li > a > i.fa:hover {
+  background-color: #882637;
+  color: white;
+}
+
+.bio > p {
+  margin-bottom: 0;
+  margin-top: 0;
+}

@@ -1,6 +1,10 @@
 body{
-  font-family:"Freight sans", serif;
-  margin:0; 
-  background-color:#FEFEFE;
-  color: #333333;
+  margin: 0 auto; 
+  color: white;
+}
+
+path {
+  fill-opacity: 0;
+  stroke-width:2;
+  stroke:#eee;
 }
