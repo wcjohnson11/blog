@@ -13,11 +13,11 @@
 }
 
 .bio > p > a {
-  color: white !important;
+  color: #BAC1D2 !important;
 }
 
 .bio > h2 {
-  color: #882637;
+  color: #73223F;
   font-size: 1.3em;
   margin: 10px 0;
 }
@@ -30,8 +30,8 @@
   list-style: none;
   padding-left: 0px;
   padding-top: 0px;
-  min-width: 300px;
-  max-width: 600px;
+  min-width: 200px;
+  max-width: 400px;
 }
 
 .bio > li {
@@ -41,15 +41,15 @@
 
 .bio > ul > li > a > i.fa {
   border-radius: 4px;
-  color: #882637;
+  color: #73223F;
   cursor: pointer;
   font-size: 20px !important;
   padding: 4px;
 }
 
 .bio > ul > li > a > i.fa:hover {
-  background-color: #882637;
-  color: white;
+  background-color: #73223F;
+  color: #BAC1D2;
 }
 
 .bio > p {
