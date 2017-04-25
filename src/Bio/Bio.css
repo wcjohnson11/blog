@@ -1,24 +1,22 @@
 .bio {
   align-items: center;
-  bottom: 0;
   display: flex;
   flex: 1;
   flex-direction: column;
-  left: 0;
+  height: 15vh;
   margin: 0 auto;
-  position: absolute;
-  right: 0;
   text-align: center;
   width: 100%;
 }
 
 .bio > p > a {
   color: #BAC1D2 !important;
+  font-style: none;
 }
 
 .bio > h2 {
   color: #73223F;
-  font-size: 1.5em;
+  font-size: 1.9em;
   margin: 10px 0;
 }
 

@@ -10,7 +10,7 @@ class Bio extends Component {
           <p>Currently at <a href="https://mindmakersproject.org" target="_blank">Mind Makers</a>, formerly at <a href="https://www.segment.com" target="_blank">Segment</a></p>
           <ul>
             <li><a href="https://github.com/wcjohnson11" target="blank"><i className="fa fa-github-alt"></i></a></li>
-            <li><a href="https://twitter.com/wcj111" target="blank"><i className="fa fa-twitter"></i></a></li>
+            <li><a href="#test" target="blank"><i className="fa fa-twitter"></i></a></li>
             <li><a href="https://www.linkedin.com/in/wcj11" target="blank"><i className="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
