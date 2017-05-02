@@ -1,0 +1,13 @@
+siteTitle = "Blog by Will Johnson"
+siteDescr = "Engineering, Analytics, Art. Currently based in San Francisco."
+siteAuthor = "Will Johnson"
+
+siteTwitterUrl = "https://www.twitter.com/wcj111"
+siteLinkedInUrl = "https://www.linkedin.com/in/wcj11/"
+siteGithubUrl = "https://github.com/wcjohnson11/"
+siteEmailUrl = "mailto:williamcouperjohnson@gmail.com"
+siteRssUrl = false
+
+googleAnalyticsId = ""
+
+linkPrefix = "/"
