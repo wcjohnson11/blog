@@ -1,0 +1,9 @@
+.about {
+  height: 80vh;
+  text-align: center;
+}
+
+p.about {
+  color: #562523;
+  text-align: left;
+}

@@ -5,10 +5,10 @@ import './Hero.css';
 class Hero extends Component {
   render() {
     return (
-      <div className="Hero">
+      <section className="Hero">
         <div className="banner"></div>
         <Bio />
-      </div>
+      </section>
     );
   }
 }
