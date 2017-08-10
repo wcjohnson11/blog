@@ -6,10 +6,12 @@
 
 h2 {
   color: #73223F;
+  font-size: 1.5em;
 }
 
 h3 {
   color: #73223F;
+  font-size: 1.2em;
 }
 
 p {
@@ -18,6 +20,12 @@ p {
 
 section {
   height: 100vh;
+}
+
+section > p {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 a {

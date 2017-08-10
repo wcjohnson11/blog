@@ -1,5 +1,6 @@
 .about {
-  height: 80vh;
+  height: auto;
+  margin-top: 2vh;
   text-align: center;
 }
 

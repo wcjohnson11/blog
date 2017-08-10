@@ -1,6 +1,8 @@
 .body {
   max-width: 800px;
   margin: 0 auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .body > p {

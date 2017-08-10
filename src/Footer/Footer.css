@@ -1,0 +1,7 @@
+.footer {
+  height: 3vh;
+}
+
+.footer > p {
+  text-align: center;
+}

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Element, Events, Link, scrollSpy } from 'react-scroll';
+import { Element, Link, scroll } from 'react-scroll';
 import './Bio.css';
+import './../../public/styles/font-awesome.css';
 
 class Bio extends Component {
   constructor() {
     super();
 
     this.state = { scrolled: false };
-
     this.handleScroll = this.handleScroll.bind(this);
   }
 
@@ -16,7 +16,6 @@ class Bio extends Component {
   }
 
   handleScroll(event) {
-    const { scrollHeight, scrollTop } = event.srcElement.body;
     const { pageYOffset, innerHeight } = window;
     const heightToShow = innerHeight - 100;
 
@@ -29,7 +28,7 @@ class Bio extends Component {
     return (
         <Element className={scrolled ? 'fixed' : ''} name="bio" id="bio">
           <div className="bio">
-            <h2>Will Johnson</h2>
+            <h2 onClick={()=>scroll.scrollToTop()}>Will Johnson</h2>
             { scrolled ? ''
             :
               <div className="subtext">
@@ -38,11 +37,11 @@ class Bio extends Component {
               </div>
             }
             <ul>
-              <li><Link activeClass="active" to="about" spy={true}>About</Link></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="https://www.twitter.com/wcj111" target="_blank">Github</a></li>
-              <li><a href="#test" target="_blank">Medium</a></li>
-              <li><a href="https://www.linkedin.com/in/wcj11" target="_blank">LinkedIn</a></li>
+              <li><Link activeClass="active" to="about" smooth={true} duration={500} offset={-120}>About</Link></li>
+              <li><a href="https://medium.com/@wcj111" target="_blank"><i className="fa fa-medium " /></a></li>
+              <li><a href="https://github.com/wcjohnson11/" target="_blank"><i className="fa fa-github " /></a></li>
+              <li><a href="https://www.linkedin.com/in/wcj11" target="_blank"><i className="fa fa-linkedin " /></a></li>
+              <li><Link activeClass="active" to="projects" smooth={true} duration={500} offset={-120}>Projects</Link></li>
             </ul>
           </div>
         </Element>
